@@ -43,6 +43,13 @@
     margin-top: 25px;
     
 }
+.thumbnail {
+   /* height: 50% !important; */
+    width: 120%;
+    display: block;
+    text-align: center;
+    
+}
 .orderCard {
     margin-top: 25px;
     border-width: 3px;

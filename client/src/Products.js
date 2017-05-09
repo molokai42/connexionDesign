@@ -32,13 +32,13 @@ class Interior extends Component {
                           </h1>
                         </Col> 
                         <Col xs={12} sm={3} md={3}>
-                          <Thumbnail src="/img/IMG_2421.JPG" />
+                          <img className="thumbnail" src="/img/IMG_2421.JPG" />
                         </Col>            
                         <Col xs={12} sm={6} md={6}>
-                          <Thumbnail src="/img/IMG_2379.JPG" />
+                          <img className="thumbnail" src="/img/IMG_2379.JPG" />
                         </Col>               
                         <Col xs={12} sm={3} md={3}>
-                          <Thumbnail src="/img/IMG_2380.JPG" />
+                          <img className="thumbnail"  src="/client/build/img/IMG_2380.JPG" />
                         </Col> 
                           <Col xs={12} className="orderCard">
                             <p className="orderText">With our help we can create the right product to meet any of your needs</p>
