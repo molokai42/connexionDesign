@@ -11,7 +11,7 @@ class JumboTron extends Component {
         <Col xs={12} className="JumboTron nopadding">
             <div>
                 <div className="title2"></div>
-                <div className="describe">Providing packaging for the entertainment industry.</div>
+                <div className="describe">Providing packaging for the entertainment industry. dlskafkjsdahfoijwasdoigjerqaoisjgoireqa</div>
             </div>
 
             <Carousel>
