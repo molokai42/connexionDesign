@@ -24,7 +24,7 @@ class Interior extends Component {
                 <div class="container-fluid">
                   <div class="row">
                     <Col xs={12}>
-                    <productJumbotron />
+                  
                       <Col xs={12} sm={7} md={8}>
                         <Col xs={12} className="connexionProducts">
                           <h1 className="connexionProducts">
