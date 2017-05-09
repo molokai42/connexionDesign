@@ -8,9 +8,7 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group' // ES6
 
 // Bootstrap
 import { Col } from 'react-bootstrap';
-import productJumbotron from './productJumbotron';
 import Thumbnail from './Thumbnail';
-import powerCaddy from './img/powerCaddy.jpg';
 
 class Products extends Component {
   render() {
@@ -25,7 +23,7 @@ class Products extends Component {
                 <div class="container-fluid">
                   <div class="row">
                     <Col xs={12}>
-                  
+                    
                       <Col xs={12} sm={7} md={8}>
                         <Col xs={12} className="connexionProducts">
                           <h1 className="connexionProducts">
@@ -33,13 +31,13 @@ class Products extends Component {
                           </h1>
                         </Col> 
                         <Col xs={12} sm={3} md={3}>
-                        <img src={require('/img/IMG_2384.JPG')} />
+                          <Thumbnail image="/img/IMG_2421.JPG" />
                         </Col>            
                         <Col xs={12} sm={6} md={6}>
-                          <img className="thumbnail"/>
+                          <Thumbnail image="/img/IMG_2379.JPG" />
                         </Col>               
                         <Col xs={12} sm={3} md={3}>
-                           <img className="pCaddy" src="/img/powerCaddy.jpg" />
+                          <Thumbnail image="/img/IMG_2380.JPG" />
                         </Col> 
                           <Col xs={12} className="orderCard">
                             <p className="orderText">With our help we can create the right product to meet any of your needs</p>
