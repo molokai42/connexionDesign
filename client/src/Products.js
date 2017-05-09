@@ -38,7 +38,7 @@ class Interior extends Component {
                           <img className="thumbnail" src="/img/IMG_2379.JPG" />
                         </Col>               
                         <Col xs={12} sm={3} md={3}>
-                          <img className="thumbnail"  src="/client/build/img/IMG_2380.JPG" />
+                           <img className="pCaddy" src="/img/powerCaddy.jpg" />
                         </Col> 
                           <Col xs={12} className="orderCard">
                             <p className="orderText">With our help we can create the right product to meet any of your needs</p>
