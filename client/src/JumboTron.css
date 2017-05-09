@@ -8,14 +8,14 @@
 }
 
 .jumboItem1 {
-    background: url("/img/IMG_2408.jpg") no-repeat;
+    background: url("/img/5axis.jpg") no-repeat;
     background-color: #fff;
     background-position: center;
 
 }
  
 .jumboItem2 {
-    background: url("/img/IMG_2436.jpg") no-repeat;
+    background: url("/img/3dprinting.jpg") no-repeat;
    background-position: center;
     background-color: #fff;
     
@@ -23,7 +23,7 @@
 }
 
 .jumboItem3 {
-    background: url("/img/IMG_2431.jpg") no-repeat;
+    background: url("/img/solidworks.jpg") no-repeat;
     background-position:center;
     background-color: #fff;
     
