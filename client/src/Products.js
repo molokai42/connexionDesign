@@ -10,8 +10,9 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group' // ES6
 import { Col } from 'react-bootstrap';
 import productJumbotron from './productJumbotron';
 import Thumbnail from './Thumbnail';
+import powerCaddy from './img/powerCaddy.jpg';
 
-class Interior extends Component {
+class Products extends Component {
   render() {
     return (
 
@@ -32,7 +33,7 @@ class Interior extends Component {
                           </h1>
                         </Col> 
                         <Col xs={12} sm={3} md={3}>
-                          <img className="thumbnail" />
+                          <img className="thumbnail" src={powerCaddy}/>
                         </Col>            
                         <Col xs={12} sm={6} md={6}>
                           <img className="thumbnail"/>
@@ -66,4 +67,4 @@ class Interior extends Component {
   }
 }
 
-export default Interior;
+export default Products;
