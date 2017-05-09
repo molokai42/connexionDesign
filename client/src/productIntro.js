@@ -35,7 +35,7 @@ class productIntro extends Component {
                     <Thumbnail image="/img/bncQuad1.jpg" />
                 </Col>    
                 <Col xs={12} sm={6}>
-                    <Thumbnail image="/img/abPowerDist2.jpg" />
+                    <Thumbnail image="/img/abPowerDIst2.jpg" />
                 </Col>
                 <Col xs={12} sm={6}>
                     <Thumbnail image="/img/OEMbatteryMount.jpg" />

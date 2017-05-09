@@ -22,7 +22,7 @@
 .powerSupply {
     height: 200px;
     width: 100%;
-    background: url("/img/abPowerDist2.jpg") no-repeat;
+    background: url("/img/abPowerDIst2.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -32,7 +32,7 @@
 .prototyping {
     height: 200px;
     width: 60%;
-    background: url("/img/IMG_2385.jpg") no-repeat;
+    background: url("/img/IMG_2385.JPG") no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -51,7 +51,7 @@
 .exampleProducts {
     height: 200px;
     width: 60%;
-    background: url("/img/powerCaddy.JPG") no-repeat;
+    background: url("/img/powerCaddy.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
