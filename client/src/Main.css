@@ -1,0 +1,23 @@
+.Main {
+    z-index: 1;
+}
+
+.separator {
+    margin: 70px 0 30px 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: lightgray;
+}
+
+
+.fadein-appear {
+    /*transform: translate(100%);*/
+    opacity: 0.01;
+}
+
+.fadein-appear.fadein-appear-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+    /*transform: translate(0%);*/
+    /*transition: transform 500ms ease-in-out;*/
+}

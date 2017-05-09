@@ -1,0 +1,65 @@
+
+
+.productJumboTron {
+    margin-top: 51px; /*51px*/
+    background-color: #fff;
+    width: 75%;
+    
+
+}
+
+.productTron1 {
+    background: url("/img/abPowerDist2.jpg") no-repeat;
+    background-color: #fff;
+    background-position: center;
+
+}
+ 
+.producTron2 {
+    background: url("/img/bncQuad2.jpg.jpg") no-repeat;
+   background-position: center;
+    background-color: #fff;
+    
+
+}
+
+.producTron3 {
+    background: url("/img/powerCaddy.jpg") no-repeat;
+    background-position:center;
+    background-color: #fff;
+    
+
+}
+.jumboItem4 {
+    background: url("/img/12gigOpticalCon.jpg") no-repeat;
+    background-position:center;
+    background-color: #fff;
+    
+
+}
+.jumboItem1, 
+.jumboItem2,
+.jumboItem3 { 
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+     
+}
+
+.title2 {
+    font-family: 'Arial Black';
+    font-size: 3em;
+    text-align: center;
+    background: url("/img/cdsmall.png") no-repeat;
+    height: 180px;
+    background-position: center;
+
+}
+
+.describe {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    font-style: italic;
+    color: darkgray;
+}

@@ -1,0 +1,110 @@
+.Contact {
+    margin-top: 55px;
+    margin-bottom: 200px;
+}
+
+.contactTitle {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.contactDescription {
+    text-align: center;
+}
+
+.contactElements {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.contactElement {
+    margin-top: 12px;
+}
+
+.messageBox {
+    height: 250px;
+    vertical-align: top;
+    margin-top: 25px;
+    margin-left: 0px;
+
+}
+
+.inputStyle {    
+    border: none;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.fadein-appear {
+    /*transform: translate(100%);*/
+    opacity: 0.01;
+}
+
+.fadein-appear.fadein-appear-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+    /*transform: translate(0%);*/
+    /*transition: transform 500ms ease-in-out;*/
+}
+
+.submitButton {
+    text-align: center;
+    border-width: 1px;
+    border-color: 000;
+}
+
+.contactUsButton {
+    background-color: #267a11;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.3em;  
+    text-align: center;  
+
+}
+.icons {
+    font-size: 48px;
+    margin-top: 15px;
+    text-align: center;
+}
+.icons2 {
+    font-size: 37px;
+    margin-top: 15px;
+    text-align: center;
+}
+.icons3 {
+    margin-top: 65px;
+    font-size: 20px;
+    
+
+}
+.rule {
+    margin: 70px 0 30px 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: lightgray;
+}
+.fields {
+    margin-top: 125px;
+}
+h4 {
+padding-top: 25px;
+}
+.enterText {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfdfdf;
+    background-color: #dfdfdf;
+
+    color: #000;
+
+}
+.textBox {
+margin-top: 15px;
+
+}
+h1 {
+    text-align: center;
+}

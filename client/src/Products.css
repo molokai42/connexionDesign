@@ -1,0 +1,73 @@
+.Interior {
+    margin-top: 65px;
+    font-size: 28px !important;
+}
+
+.pCaddyText {
+ font-size: 28px;
+ margin-left: 15px;
+ margin-top: 25px;
+ text-align: center;
+}
+
+
+.thumbSize {
+    min-height: 250px;
+}
+
+.fadein-appear {
+    /*transform: translate(100%);*/
+    opacity: 0.01;
+}
+
+.fadein-appear.fadein-appear-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+    /*transform: translate(0%);*/
+    /*transition: transform 500ms ease-in-out;*/
+}
+.connexionProducts {
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+    
+}
+.smallImages {
+    text-align: center;
+}
+.pCaddy {
+   /* height: 50% !important; */
+    width: 120%;
+    display: block;
+    margin-top: 25px;
+    
+}
+.orderCard {
+    margin-top: 25px;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 25px;
+    border-style: solid;
+
+}
+.orderText {
+    padding: 20px;
+}
+.title {
+    
+    text-align: center;
+    background: url("/img/cdsmaller.png") no-repeat;
+    height: 160px;
+    background-position: center;
+    margin-left: 35px;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 60px;
+    border-style: solid;
+    margin-top: 15px;
+
+}
+.orderNow {
+    background-color: green;
+}

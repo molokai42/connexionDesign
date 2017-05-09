@@ -1,0 +1,86 @@
+
+.Services {
+    margin-top: 10px;
+}
+
+.servicesTitle {
+    text-align: center;
+}
+
+.serviceCard {
+    background-color: white;
+    padding: 3px 5px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 6px 1px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding-bottom: 25px;
+}
+
+.powerSupply {
+    height: 200px;
+    width: 100%;
+    background: url("/img/abPowerDist2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+
+.prototyping {
+    height: 200px;
+    width: 60%;
+    background: url("/img/IMG_2385.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.microCircle {
+    height: 200px;
+    width: 60%;
+    background: url("/img/csBox.JPG") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+
+.exampleProducts {
+    height: 200px;
+    width: 60%;
+    background: url("/img/powerCaddy.JPG") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.serviceTitle {
+    text-align: center;
+}
+
+.serviceDescription {
+    height: 40px;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+.learnMoreButton {
+    background-color: #66af69;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 1.1em; 
+    
+
+}
+
+.serviceLearn {
+    margin: 10px 0;
+}
+.padding {
+    padding-bottom: 25px;
+}

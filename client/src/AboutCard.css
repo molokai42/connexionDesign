@@ -1,0 +1,44 @@
+.AboutCard {
+    margin-top: 15px;
+}
+
+.step1 {
+    background: url("/img/snow.jpeg") no-repeat;
+    background-color: #DDD;
+    width: 100%;
+
+}
+
+.step2 {
+    background: url("/img/golfCourse1.jpeg") no-repeat;
+    background-color: #DDD !important;
+    width: 100%;
+}
+
+.step3 {
+    background: url("/img/nascar1.jpeg") no-repeat;
+    background-color: #DDD;
+    width: 100%;
+}
+
+.black {
+  /*  color: #42b5e3 !important; */
+    margin-top: 30px;
+    margin-left: 50px;
+    color: black;
+}
+.step1, 
+.step2,
+.step3 {
+    height: 400px;
+    background-size: cover;
+    background-position: center !important; 
+}
+
+.carouselSteps {
+    margin-top: 15px;
+}
+
+.consultingText {
+    text-align: center;
+}

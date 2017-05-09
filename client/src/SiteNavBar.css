@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #267a11 !important;
+    border-color: #267111 !important;
+}
+
+.navbar-default {
+    background-color: #267a11 !important;
+    
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.navbar-header a {
+    color: white !important;
+}
+
+.navbar-brand{ 
+  background: url(/img/CD_Logo2.png) center / contain no-repeat;
+  width: 200px;   
+}
+
+.transparent {
+	background-color:rgba(0, 0, 0, 0.0);
+  text-align: center;
+
+
+}
+.SiteNavBar {
+	margin-top: 40px;
+}

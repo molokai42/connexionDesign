@@ -1,0 +1,52 @@
+.noPadding {
+    padding: 0 !important;
+}
+
+.Splash {
+    background-color: #fff !important;
+}
+
+.mainCard {
+    background-color: white !important; 
+}
+
+
+.separator {
+    margin: 50px 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: lightgray;
+}
+
+
+.subTitle {
+    font-size: 2em;
+    text-align: center;
+}
+
+.subDescription {
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+.subButton {
+    margin: 10px 0;
+}
+
+.pastProjectsButton {
+    background-color: #232B42;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.contactUsButton {
+    background-color: #576886;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 1.3em;    
+}

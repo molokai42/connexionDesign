@@ -1,0 +1,47 @@
+.TabBar {
+    z-index: 5;
+}
+
+.tab {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px 0;
+    font-weight: 600;
+    background-color: white;
+}
+
+.tab:hover {
+    background-color: #489c33;
+    color: white;
+
+}
+
+.active {
+    background-color: #267a11;
+    color: white;
+}
+
+.rightBorder {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+}
+
+.leftBottomBorder {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    
+}
+
+
+.test {
+    margin-top: 100px;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+} 
