@@ -48,6 +48,7 @@
     width: 120%;
     display: block;
     text-align: center;
+    background: url("/img/cdsmaller.png") no-repeat;
     
 }
 .orderCard {

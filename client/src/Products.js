@@ -32,10 +32,10 @@ class Interior extends Component {
                           </h1>
                         </Col> 
                         <Col xs={12} sm={3} md={3}>
-                          <img className="thumbnail" src="/img/IMG_2421.JPG" />
+                          <img className="thumbnail" />
                         </Col>            
                         <Col xs={12} sm={6} md={6}>
-                          <img className="thumbnail" src="/img/IMG_2379.JPG" />
+                          <img className="thumbnail"/>
                         </Col>               
                         <Col xs={12} sm={3} md={3}>
                            <img className="pCaddy" src="/img/powerCaddy.jpg" />
