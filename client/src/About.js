@@ -7,16 +7,16 @@ import { Col } from 'react-bootstrap';
 
 import Thumbnail from './Thumbnail';
 
-class Exterior extends Component {
+class About extends Component {
   render() {
     return (
-        <Col xs={12} className="Exterior noPadding">                
+        <Col xs={12} className="AboutPadding">                
             <ReactCSSTransitionGroup
                 transitionName="fadein"
                 transitionAppear={true}
                 transitionAppearTimeout={500}
                 transitionAppearTimeout={300}>
-                <Col xs={12} className="subTitle titleFont exteriorTitle">
+                <Col xs={12} className="subTitle titleFont aboutTitle">
                     About
                 </Col>            
               
@@ -30,4 +30,4 @@ class Exterior extends Component {
   }
 }
 
-export default Exterior;
+export default About;
