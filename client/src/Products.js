@@ -33,7 +33,7 @@ class Products extends Component {
                           </h1>
                         </Col> 
                         <Col xs={12} sm={3} md={3}>
-                          <img className="thumbnail" src={powerCaddy}/>
+                        <img src={require('/img/IMG_2384.JPG')} />
                         </Col>            
                         <Col xs={12} sm={6} md={6}>
                           <img className="thumbnail"/>
