@@ -5,7 +5,7 @@ import './Splash.css';
 import SiteNavBar from './SiteNavBar';
 import JumboTron from './JumboTron';
 
-import TabBar from './TabBar';
+import SocialMedia from './SocialMedia';
 
 // Bootstrap
 import { Grid } from 'react-bootstrap';
@@ -26,7 +26,7 @@ class Splash extends Component {
             <Row>
                 <Col xs={12} className="mainCard noPadding">
                       
-                  
+                  <SocialMedia/>
                   {this.props.children}           
                 </Col>                
             </Row>
