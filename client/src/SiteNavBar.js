@@ -36,7 +36,7 @@ class SiteNavBar extends Component {
                 </Link>
               </NavItem>
               <NavItem eventKey={3}>
-                <Link to="/About" className="transparent_grn">
+                <Link to="/About/About" className="transparent_grn">
                   About
                 </Link>
               </NavItem>

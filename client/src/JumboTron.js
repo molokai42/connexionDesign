@@ -8,23 +8,27 @@ import { Carousel } from "react-bootstrap";
 class JumboTron extends Component {
   constructor() {
     super();
-    this.state = { show: false };
+    this.state = {
+      show: false,
+      count: 1
+    };
   }
   componentDidMount() {
     setTimeout(() => {
       this.setState({ show: true });
     }, 2000);
   }
+
   render() {
     return (
       <Col xs={12} className="JumboTron nopadding">
         <div>
           <div className="title2" />
-          <div className="describe">
-            <ReactRevealText show={this.state.show}>
-              Providing packaging for the entertainment industry.
-            </ReactRevealText>
-          </div>
+        </div>
+        <div className="describe">
+          <ReactRevealText show={this.state.show}>
+            We Provide power for the industry that provides you entertainment.
+          </ReactRevealText>
         </div>
 
         <Carousel>

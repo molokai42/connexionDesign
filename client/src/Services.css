@@ -48,7 +48,7 @@
 .exampleProducts {
   height: 200px;
   width: 60%;
-  background: url("/img/powerCaddy.jpg") no-repeat;
+  background: url("/img/cd_products/powerCaddy.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 50%;

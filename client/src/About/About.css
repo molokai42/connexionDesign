@@ -1,0 +1,34 @@
+.AboutPadding {
+  margin-top: 65px;
+  margin-bottom: 100px;
+}
+
+.aboutTitle {
+  margin-bottom: 50px;
+}
+
+.thumbSize {
+  min-height: 250px;
+}
+
+.fadein-appear {
+  /*transform: translate(100%);*/
+  opacity: 0.01;
+}
+
+.fadein-appear.fadein-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+  /*transform: translate(0%);*/
+  /*transition: transform 500ms ease-in-out;*/
+}
+
+.Pic {
+  /*  background: url("../img/erin.JPG") no-repeat !important;*/
+  height: 500px;
+  width: 300px;
+}
+
+.About {
+  font-size: 2em;
+}

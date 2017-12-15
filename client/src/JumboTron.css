@@ -61,15 +61,27 @@
   font-family: "Arial Black";
   font-size: 3em;
   text-align: center;
-  background: url("/img/cdsmall.png") no-repeat;
-  height: 180px;
+  background: url("/img/logos/cdsmall.png") no-repeat;
+  height: 150px;
   background-position: center;
 }
 
 .describe {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 1.4em;
+  font-size: 1.7em;
   font-style: italic;
-  color: darkgray;
+  font-weight: bolder;
+  color: rgb(37, 130, 0);
+  margin-top: 10px !important;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  padding-top: 14px;
+}
+@media screen and (max-width: 768px) {
+  .describe {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
 }
