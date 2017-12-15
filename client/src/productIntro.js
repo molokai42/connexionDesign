@@ -29,16 +29,16 @@ class productIntro extends Component {
             </Col>
             <Col xs={12} md={6}>
                 <Col xs={12} sm={6}>
-                    <Thumbnail image="/img/powerCaddyOrig.jpg" />
+                    <Thumbnail image="/img/cd_products/powerCaddyOrig.jpg" />
                 </Col>
                 <Col xs={12} sm={6} >
-                    <Thumbnail image="/img/bncQuad1.jpg" />
+                    <Thumbnail image="/img/cd_products/bncQuad1.jpg" />
                 </Col>    
                 <Col xs={12} sm={6}>
-                    <Thumbnail image="/img/abPowerDIst2.jpg" />
+                    <Thumbnail image="/img/cd_products/abPowerDIst2.jpg" />
                 </Col>
                 <Col xs={12} sm={6}>
-                    <Thumbnail image="/img/OEMbatteryMount.jpg" />
+                    <Thumbnail image="/img/cd_products/OEMbatteryMount.jpg" />
                 </Col>
             </Col>
         </Col>

@@ -1,86 +1,90 @@
-
 .Services {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .servicesTitle {
-    text-align: center;
+  text-align: center;
 }
 
 .serviceCard {
-    background-color: white;
-    padding: 3px 5px;
-    margin-top: 20px;
-    box-shadow: 5px 5px 6px 1px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightgray;
-    padding-bottom: 25px;
+  background-color: white;
+  padding: 3px 5px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 6px 1px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  padding-bottom: 25px;
 }
 
 .powerSupply {
-    height: 200px;
-    width: 100%;
-    background: url("/img/abPowerDIst2.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
+  height: 200px;
+  width: 100%;
+  background: url("/img/cd_products/abPowerDIst2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
 }
 
-
 .prototyping {
-    height: 200px;
-    width: 60%;
-    background: url("/img/IMG_2385.JPG") no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
+  height: 200px;
+  width: 60%;
+  background: url("/img/shells/cd_pack_shell_ex.JPG") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
 }
 
 .microCircle {
-    height: 200px;
-    width: 60%;
-    background: url("/img/csBox.JPG") no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
+  height: 200px;
+  width: 60%;
+  background: url("/img/shells/pink_shell_example.JPG") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
 }
 
-
 .exampleProducts {
-    height: 200px;
-    width: 60%;
-    background: url("/img/powerCaddy.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
+  height: 200px;
+  width: 60%;
+  background: url("/img/powerCaddy.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
 }
 
 .serviceTitle {
-    text-align: center;
+  text-align: center;
 }
 
 .serviceDescription {
-    height: 40px;
-    margin-top: 15px;
-    font-size: 1.1em;
+  height: max-content;
+  margin-top: 15px;
+  font-size: 1.1em;
 }
 
 .learnMoreButton {
-    background-color: #66af69;
-    border-radius: 5px;
-    color: #ffffff;
-    padding: 8px;
-    font-weight: 400;
-    font-size: 1.1em; 
-    
-
+  background-color: #66af69;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 8px;
+  font-weight: 400;
+  font-size: 1.1em;
 }
 
 .serviceLearn {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 .padding {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
+}
+.hoverColor {
+  color: #267a12;
+}
+.hoverColor:hover {
+  color: #25a707;
+}
+.hoverColor:focus {
+  color: #267a12;
 }

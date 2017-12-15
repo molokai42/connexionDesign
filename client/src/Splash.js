@@ -1,16 +1,16 @@
-import React, { Component, PropTypes } from 'react';
-import './Splash.css';
+import React, { Component, PropTypes } from "react";
+import "./Splash.css";
 
 // Custom
-import SiteNavBar from './SiteNavBar';
-import JumboTron from './JumboTron';
+import SiteNavBar from "./SiteNavBar";
+import JumboTron from "./JumboTron";
 
-import SocialMedia from './SocialMedia';
+import SocialMedia from "./SocialMedia";
 
 // Bootstrap
-import { Grid } from 'react-bootstrap';
-import { Row } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
+import { Grid } from "react-bootstrap";
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 class Splash extends Component {
   static propTypes = {
@@ -18,23 +18,20 @@ class Splash extends Component {
   };
 
   render() {
-    return (      
-      <div className="Splash noPadding">        
+    return (
+      <div className="Splash noPadding">
         <SiteNavBar />
-        
+
         <Grid>
-            <Row>
-                <Col xs={12} className="mainCard noPadding">
-                      
-                  <SocialMedia/>
-                  {this.props.children}           
-                </Col>                
-            </Row>
-        </Grid>  
+          <Row>
+            <Col xs={12} className="mainCard noPadding">
+              {this.props.children}
+            </Col>
+          </Row>
+        </Grid>
       </div>
     );
   }
-
 }
 
 export default Splash;

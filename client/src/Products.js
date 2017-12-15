@@ -31,13 +31,13 @@ class Products extends Component {
                           </h1>
                         </Col> 
                         <Col xs={12} sm={3} md={3}>
-                          <Thumbnail image="/img/IMG_2421.JPG" />
+                          <Thumbnail image="/img/parts/IMG_2421.JPG" />
                         </Col>            
                         <Col xs={12} sm={6} md={6}>
-                          <Thumbnail image="/img/IMG_2379.JPG" />
+                          <Thumbnail image="/client/public/img/shells/blue_shell_example2.JPG" />
                         </Col>               
                         <Col xs={12} sm={3} md={3}>
-                          <Thumbnail image="/img/IMG_2380.JPG" />
+                          <Thumbnail image="/img/shells/sixth_ru_long.JPG" />
                         </Col> 
                           <Col xs={12} className="orderCard">
                             <p className="orderText">With our help we can create the right product to meet any of your needs</p>

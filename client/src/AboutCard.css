@@ -3,20 +3,20 @@
 }
 
 .step1 {
-    background: url("/img/snow.jpeg") no-repeat;
+    background: url("/img/misc/snow.jpeg") no-repeat;
     background-color: #DDD;
     width: 100%;
 
 }
 
 .step2 {
-    background: url("/img/golfcourse1.jpeg") no-repeat;
+    background: url("/img/misc/golfcourse1.jpeg") no-repeat;
     background-color: #DDD !important;
     width: 100%;
 }
 
 .step3 {
-    background: url("/img/nascar1.jpeg") no-repeat;
+    background: url("/img/misc/nascar1.jpeg") no-repeat;
     background-color: #DDD;
     width: 100%;
 }
