@@ -29,6 +29,8 @@
 .JumboTron {
   margin-top: 51px; /*51px*/
   background-color: #fff;
+  width: 75%;
+  align-content: center;
 }
 
 .jumboItem1 {
@@ -56,6 +58,8 @@
   width: 100%;
   background-size: cover;
 }
+@media (max-width: 1050px) {
+}
 
 .title2 {
   font-family: "Arial Black";
@@ -77,6 +81,11 @@
   letter-spacing: 3px;
   word-spacing: 5px;
   padding-top: 14px;
+}
+.carousel-caption:hover,
+.carousel-control:focus {
+  background-color: rgba(4, 60, 16, 0.42);
+  border-radius: 12px;
 }
 @media screen and (max-width: 768px) {
   .describe {

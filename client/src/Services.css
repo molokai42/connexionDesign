@@ -16,6 +16,20 @@
   border-width: 1px;
   border-color: lightgray;
   padding-bottom: 25px;
+  font-size: 4em;
+}
+
+@media screen and (max-width: 768px) {
+  .serviceCard {
+    font-size: 2em;
+  }
+  .serviceTitle {
+    font-size: 1em;
+    padding: 10px;
+  }
+  .serviceDescription {
+    font-size: 0.8em !important;
+  }
 }
 
 .powerSupply {
@@ -56,12 +70,13 @@
 
 .serviceTitle {
   text-align: center;
+  font-size: 0.7em;
 }
 
 .serviceDescription {
   height: max-content;
   margin-top: 15px;
-  font-size: 1.1em;
+  font-size: 0.59em;
 }
 
 .learnMoreButton {

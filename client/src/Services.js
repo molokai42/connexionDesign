@@ -13,7 +13,7 @@ class Services extends Component {
           <h2 className="subTitle titleFont ">Services</h2>
         </Col>
         <a href="#Products" className="hoverColor">
-          <Col xs={12} md={3}>
+          <Col xs={12} md={6}>
             <Col xs={12} className="serviceCard">
               <h4 className="serviceTitle">Power Supplies</h4>
               <Col
@@ -30,7 +30,7 @@ class Services extends Component {
           </Col>
         </a>
         <a href="#Contact" className="hoverColor">
-          <Col xs={12} md={3}>
+          <Col xs={12} md={6}>
             <Col xs={12} className="serviceCard">
               <h4 className="serviceTitle">Prototyping</h4>
               <Col
@@ -47,7 +47,7 @@ class Services extends Component {
           </Col>
         </a>
         <a href="#Contact" className="hoverColor">
-          <Col xs={12} md={3}>
+          <Col xs={12} md={6}>
             <Col xs={12} className="serviceCard">
               <h4 className="serviceTitle">Custom Rack Units</h4>
               <Col
@@ -64,7 +64,7 @@ class Services extends Component {
           </Col>
         </a>
         <Link to="/Products" className="hoverColor">
-          <Col xs={12} md={3}>
+          <Col xs={12} md={6}>
             <Col xs={12} className="serviceCard ">
               <h4 className="serviceTitle">View All Products</h4>
               <Col
@@ -76,7 +76,7 @@ class Services extends Component {
               />
 
               <Col xs={12} className="serviceDescription">
-                See what Connexion has to offer.
+                Come take a look and see what Connexion has to offer.
               </Col>
             </Col>
           </Col>
